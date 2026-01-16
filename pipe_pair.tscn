@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://dclfcelh06b3r"]
+
+[ext_resource type="PackedScene" uid="uid://c5qa8lg3ahku2" path="res://scenes/pipe.tscn" id="1_nep78"]
+
+[node name="PipePair" type="Node2D"]
+
+[node name="BottomPipe" parent="." instance=ExtResource("1_nep78")]
+position = Vector2(0, 192)
+
+[node name="TopPipe" parent="." instance=ExtResource("1_nep78")]
+position = Vector2(0, -300)
+rotation = 3.1415927

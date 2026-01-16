@@ -1,8 +1,11 @@
-[gd_scene load_steps=2 format=3 uid="uid://dcebn6m62gakm"]
+[gd_scene load_steps=3 format=3 uid="uid://dcebn6m62gakm"]
 
 [ext_resource type="Texture2D" uid="uid://bfnwol0eerwd0" path="res://images/bird.png" id="1_3vyb7"]
+[ext_resource type="Script" uid="uid://ec2tgowwr4tj" path="res://scenes/player.gd" id="1_g2els"]
 
 [node name="Player" type="Node2D"]
+scale = Vector2(1.25, 1.25)
+script = ExtResource("1_g2els")
 
 [node name="PlayerImage" type="Sprite2D" parent="."]
 texture = ExtResource("1_3vyb7")
